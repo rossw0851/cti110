@@ -4,16 +4,16 @@
 #William "James" Ross
 #Pseudocode (detail algorithm)
 
-budget = 1200
-print('Enter Budget:', budget)
-destination= 'Asheville'
-print('Enter your travel destination:', destination)
-gas = 250
-print('How much do you think you will spend on gas?', gas)
-accomodation = 300
-print('Approximately, how much will you need for accomodation/hotel?', accomodation)
-food = 200
-print('Last, how much do you need for food?', food)
+budget = int(input('Enter Budget:'))
+print(budget)
+destination = input('Enter your travel destination:')
+print(destination)
+gas = int(input('How much do you think you will spend on gas?'))
+print(gas)
+accomodation = int(input('Approximately, how much will you need for accomodation/hotel?'))
+print(accomodation)
+food = int(input('Last, how mcuh do you need for food?'))
+print(food)
 print('------------Travel Expenses------------')
 print('Location:', destination)
 print('Initial budget:', budget)
